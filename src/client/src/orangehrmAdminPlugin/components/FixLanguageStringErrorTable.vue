@@ -64,6 +64,8 @@
             :required="true"
             @update:model-value="onUpdateTranslation($event, index)"
           />
+
+          
           <oxd-divider class="orangehrm-translation-grid-langstring-header" />
         </oxd-grid-item>
       </template>
